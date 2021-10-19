@@ -1,0 +1,122 @@
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\WebServiceClient.dll.config
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\WebServiceClient.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\WebServiceClient.pdb
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\csc.exe
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\csc.exe.config
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\csc.rsp
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\csi.exe
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\csi.exe.config
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\csi.rsp
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.AppContext.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Console.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.IO.Compression.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Net.Http.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Net.Sockets.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.ValueTuple.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Xml.XPath.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\vbc.exe
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\vbc.exe.config
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\vbc.rsp
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\VBCSCompiler.exe
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\System.Data.SqlClient.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\System.Data.SqlClient.xml
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csproj.CopyComplete
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.dll
+C:\Users\USER\source\repos\CS Advanced\Project\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.pdb
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\WebServiceClient.dll.config
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\WebServiceClient.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\WebServiceClient.pdb
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\csc.exe
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\csc.exe.config
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\csc.rsp
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\csi.exe
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\csi.exe.config
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\csi.rsp
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.AppContext.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Console.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.IO.Compression.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Net.Http.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Net.Sockets.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.ValueTuple.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Xml.XPath.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\vbc.exe
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\vbc.exe.config
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\vbc.rsp
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\VBCSCompiler.exe
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\System.Data.SqlClient.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\System.Data.SqlClient.xml
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csproj.CopyComplete
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.dll
+C:\Users\USER\source\repos\CS Advanced\Project\Web Services\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.pdb
