@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Deduct">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="fromAccount" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeductResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="DeductSoapIn">
+    <wsdl:part name="parameters" element="tns:Deduct" />
+  </wsdl:message>
+  <wsdl:message name="DeductSoapOut">
+    <wsdl:part name="parameters" element="tns:DeductResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceDeductSoap">
+    <wsdl:operation name="Deduct">
+      <wsdl:input message="tns:DeductSoapIn" />
+      <wsdl:output message="tns:DeductSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceDeductSoap" type="tns:WebServiceDeductSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Deduct">
+      <soap:operation soapAction="http://tempuri.org/Deduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceDeductSoap12" type="tns:WebServiceDeductSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Deduct">
+      <soap12:operation soapAction="http://tempuri.org/Deduct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServiceDeduct">
+    <wsdl:port name="WebServiceDeductSoap" binding="tns:WebServiceDeductSoap">
+      <soap:address location="https://localhost:44329/WebServiceDeduct.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceDeductSoap12" binding="tns:WebServiceDeductSoap12">
+      <soap12:address location="https://localhost:44329/WebServiceDeduct.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

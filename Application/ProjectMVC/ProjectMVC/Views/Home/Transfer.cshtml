@@ -1,0 +1,70 @@
+﻿@model ProjectMVC.Models.TransactionListModels
+@{
+    ViewBag.Title = "Transfer";
+}
+
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
+
+@if (TempData["Message"] != null)
+{
+    <div>
+        <p class="text-warning">@TempData["Message"]</p>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <section>
+            @if (ViewBag.Response == "No accounts found")
+            {
+                <div>
+                    <h3>No accounts found</h3>
+                </div>
+
+                using (Html.BeginForm("Apply", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <hr />
+                    <div class="form-group" style="margin-top: 8px;">
+                        <div class="col-md-10">
+                            <input type="submit" class="btn btn-default btn-lg col-md-10" value="Open New Account" />
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                using (Html.BeginForm("SubmitTransfer", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.Label("From Account", new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.FromAccount, new { id = "fromAccount", @class = "form-control", placeholder = "From Account Number" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.Label("To Account", new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.ToAccount, new { id = "toAccount", @class = "form-control", placeholder = "To Account Number" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.Label("Amount", new { @class = "col-md-2 control-label" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(m => m.Amount, new { id = "amount", @class = "form-control", placeholder = "Amount (R)" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Transfer" class="btn btn-default btn-primary" />
+                        </div>
+                    </div>
+                }
+            }
+        </section>
+    </div>
+</div>

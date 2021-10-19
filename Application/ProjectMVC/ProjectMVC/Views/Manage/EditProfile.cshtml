@@ -1,0 +1,97 @@
+﻿@model ProjectMVC.Models.RegisterViewModel
+@using System.Data.SqlClient
+@using Microsoft.AspNet.Identity;
+@{
+    ViewBag.Title = "Edit Profile";
+}
+
+@{
+    // Get user's current profile information:
+
+    // Database connection:
+    SqlConnection connectionString = new SqlConnection("Server=localhost\\MSSQLSERVER01; Database=BillionBank; Integrated Security=True; Trusted_Connection=True; MultipleActiveResultSets=true;");
+    SqlDataReader dataReader;
+    connectionString.Open();
+
+    // Get user's telephone command:
+    SqlCommand getTelephone = new SqlCommand();
+    getTelephone.Connection = connectionString;
+    getTelephone.CommandText = "SELECT [Telephone] FROM [dbo].[Client] WHERE [Name] = @Name";
+
+    // Get user's email command:
+    SqlCommand getEmail = new SqlCommand();
+    getEmail.Connection = connectionString;
+    getEmail.CommandText = "SELECT [Email] FROM [dbo].[Client] WHERE [Name] = @Name";
+
+    // Get user's address command:
+    SqlCommand getAddress = new SqlCommand();
+    getAddress.Connection = connectionString;
+    getAddress.CommandText = "SELECT [Address] FROM [dbo].[Client] WHERE [Name] = @Name";
+
+    // Get user's name:
+    string name = User.Identity.GetUserName();
+
+    if (string.IsNullOrEmpty(name))
+    {
+        getTelephone.Parameters.AddWithValue("@Name", DBNull.Value);
+        getEmail.Parameters.AddWithValue("@Name", DBNull.Value);
+        getAddress.Parameters.AddWithValue("@Name", DBNull.Value);
+    }
+    else
+    {
+        getTelephone.Parameters.AddWithValue("@Name", name);
+        getEmail.Parameters.AddWithValue("@Name", name);
+        getAddress.Parameters.AddWithValue("@Name", name);
+    }
+
+    // Store command results to variables:
+    string telephone = (string)getTelephone.ExecuteScalar();
+    string email = (string)getEmail.ExecuteScalar();
+    string address = (string)getAddress.ExecuteScalar();
+
+    // Execute SQL commands:
+    dataReader = getTelephone.ExecuteReader();
+    dataReader = getEmail.ExecuteReader();
+    dataReader = getAddress.ExecuteReader();
+    connectionString.Close();
+}
+
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("UpdateProfile", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>Edit Profile Form</h4>
+    <hr />
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    <table class="table table-bordered table-hover" style="max-width: 80%">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Current Information</th>
+                <th scope="col">New Information</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.Label(telephone, new { @class = "control-label text-left" })</td>
+                <td>@Html.TextBoxFor(m => m.Telephone, new { @class = "form-control", id = "Telephone", placeholder = "New telephone" })</td>
+            </tr>
+            <tr>
+                <td>@Html.Label("", email, new { @class = "control-label text-justify" })</td>
+                <td>@Html.TextBoxFor(m => m.Email, new { @class = "form-control", id = "Email", placeholder = "New email" })</td>
+            </tr>
+            <tr>
+                <td>@Html.Label(address, new { @class = "control-label text-left" })</td>
+                <td>@Html.TextAreaFor(m => m.Address, new { @class = "form-control", id = "Address", placeholder = "New address" })</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="form-group">
+        <div class="col-md-offset-0 col-md-10">
+            <input type="submit" value="Update profile" class="btn btn-default btn-primary" />
+        </div>
+    </div>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

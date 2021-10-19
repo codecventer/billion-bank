@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Client">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="telephone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="question" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="answer" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClientResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Account">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="accountNumber" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="balance" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="AddTransaction">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="toAccount" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fromAccount" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddTransactionResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Deduct">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="toAccount" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fromAccount" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeductResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Increase">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="toAccount" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fromAccount" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="amount" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IncreaseResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ClientSoapIn">
+    <wsdl:part name="parameters" element="tns:Client" />
+  </wsdl:message>
+  <wsdl:message name="ClientSoapOut">
+    <wsdl:part name="parameters" element="tns:ClientResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountSoapIn">
+    <wsdl:part name="parameters" element="tns:Account" />
+  </wsdl:message>
+  <wsdl:message name="AccountSoapOut">
+    <wsdl:part name="parameters" element="tns:AccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddTransactionSoapIn">
+    <wsdl:part name="parameters" element="tns:AddTransaction" />
+  </wsdl:message>
+  <wsdl:message name="AddTransactionSoapOut">
+    <wsdl:part name="parameters" element="tns:AddTransactionResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeductSoapIn">
+    <wsdl:part name="parameters" element="tns:Deduct" />
+  </wsdl:message>
+  <wsdl:message name="DeductSoapOut">
+    <wsdl:part name="parameters" element="tns:DeductResponse" />
+  </wsdl:message>
+  <wsdl:message name="IncreaseSoapIn">
+    <wsdl:part name="parameters" element="tns:Increase" />
+  </wsdl:message>
+  <wsdl:message name="IncreaseSoapOut">
+    <wsdl:part name="parameters" element="tns:IncreaseResponse" />
+  </wsdl:message>
+  <wsdl:portType name="BilionBankWebServiceSoap">
+    <wsdl:operation name="Client">
+      <wsdl:input message="tns:ClientSoapIn" />
+      <wsdl:output message="tns:ClientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Account">
+      <wsdl:input message="tns:AccountSoapIn" />
+      <wsdl:output message="tns:AccountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddTransaction">
+      <wsdl:input message="tns:AddTransactionSoapIn" />
+      <wsdl:output message="tns:AddTransactionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Deduct">
+      <wsdl:input message="tns:DeductSoapIn" />
+      <wsdl:output message="tns:DeductSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Increase">
+      <wsdl:input message="tns:IncreaseSoapIn" />
+      <wsdl:output message="tns:IncreaseSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BilionBankWebServiceSoap" type="tns:BilionBankWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Client">
+      <soap:operation soapAction="http://tempuri.org/Client" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Account">
+      <soap:operation soapAction="http://tempuri.org/Account" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTransaction">
+      <soap:operation soapAction="http://tempuri.org/AddTransaction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Deduct">
+      <soap:operation soapAction="http://tempuri.org/Deduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Increase">
+      <soap:operation soapAction="http://tempuri.org/Increase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BilionBankWebServiceSoap12" type="tns:BilionBankWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Client">
+      <soap12:operation soapAction="http://tempuri.org/Client" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Account">
+      <soap12:operation soapAction="http://tempuri.org/Account" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTransaction">
+      <soap12:operation soapAction="http://tempuri.org/AddTransaction" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Deduct">
+      <soap12:operation soapAction="http://tempuri.org/Deduct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Increase">
+      <soap12:operation soapAction="http://tempuri.org/Increase" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BilionBankWebService">
+    <wsdl:port name="BilionBankWebServiceSoap" binding="tns:BilionBankWebServiceSoap">
+      <soap:address location="https://localhost:44343/BilionBankWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BilionBankWebServiceSoap12" binding="tns:BilionBankWebServiceSoap12">
+      <soap12:address location="https://localhost:44343/BilionBankWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

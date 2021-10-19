@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;BilionBankWebServiceSoap20&quot;&gt;&lt;security mode=&quot;Transport&quot; /&gt;&lt;/Data&gt;" bindingType="basicHttpBinding" name="BilionBankWebServiceSoap20" />
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;BilionBankWebServiceSoap21&quot; /&gt;" bindingType="basicHttpBinding" name="BilionBankWebServiceSoap21" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://localhost:44343/BilionBankWebService.asmx&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BilionBankWebServiceSoap20&quot; contract=&quot;ServiceReference3.BilionBankWebServiceSoap&quot; name=&quot;BilionBankWebServiceSoap10&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://localhost:44343/BilionBankWebService.asmx&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;BilionBankWebServiceSoap20&quot; contract=&quot;ServiceReference3.BilionBankWebServiceSoap&quot; name=&quot;BilionBankWebServiceSoap10&quot; /&gt;" contractName="ServiceReference3.BilionBankWebServiceSoap" name="BilionBankWebServiceSoap10" />
+  </endpoints>
+</configurationSnapshot>
