@@ -32,7 +32,7 @@ The following web services are used in this application:
 - In the Database folder, add the database file to your running SQL Server instance.
 - Next, from the Web Services folder, open each web service project and update the connection strings by using your own Server name.
 - Now, run each web service locally.
-- Finally, in the Project/Application folder, update the connection strings within the application by using your own Server name
+- Finally, in the Application/ProjectMVP folder, update the connection strings within the application by using your own Server name
 
 ## How To Use?
 - Once the application is running in your browser, go ahead and register your new profile on the Register page.
