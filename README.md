@@ -29,8 +29,8 @@ The following web services are used in this application:
 - Update Profile, updates the user's profile information.
 
 ## Getting Started
-- In the Project/Database folder, add the database file to your running SQL Server instance.
-- Next, from the Project/Web Services folder, open each web service project and update the connection strings by using your own Server name.
+- In the Database folder, add the database file to your running SQL Server instance.
+- Next, from the Web Services folder, open each web service project and update the connection strings by using your own Server name.
 - Now, run each web service locally.
 - Finally, in the Project/Application folder, update the connection strings within the application by using your own Server name
 
